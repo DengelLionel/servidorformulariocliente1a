@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 app.use(cors())
 // Inicializa Firebase
-var serviceAccount = require("crendencial.json");
+
 
 admin.initializeApp({
   credential: admin.credential.cert({
