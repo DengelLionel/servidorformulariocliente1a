@@ -1,7 +1,7 @@
-import * as admin from 'firebase-admin';
-import express from 'express';
-import cors from 'cors'
-import dotenv from 'dotenv'
+const admin = require('firebase-admin');
+const express = require('express');
+const cors = require('cors');
+const dotenv = require('dotenv');
 // Inicializa la aplicación Express
 dotenv.config();
 const app = express();
